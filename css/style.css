@@ -5,3 +5,10 @@
     height: 100px;
     font-size: 30px;
 }
+@media all and (max-width: 767px){
+   .btnComenzar{
+    width: 300px;
+    height: 50px;
+    margin-bottom: 10px;
+   }
+}
