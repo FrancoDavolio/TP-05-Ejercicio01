@@ -34,11 +34,12 @@
         100. <br>Usted
         trendra que adivinar ese numero.</p>
       <div class="text-center py-4">
-        <button class="btnComenzar" id="btnComienzo" onclick="generarNumeroAleatorio()">Comenzar juego</button>
+        <button class="btnComenzar" onclick="generarNumeroAleatorio()">Comenzar juego</button>
       </div>
-        <div class="text-center pb-4">
-        <button class="btn btn-outline-success" type="submit" id="btnEnviar" onclick="numeroMagico()">Apretar para poder escribir el numero.</button>
-      </div>
+      <form class="text-center py-4">
+        <input type="number" id="num" placeholder="Adivinar Numero">
+        <button class="btn btn-outline-success" onclick="numeroMagico()">Enviar</button>
+      </form>
     </section>
   </main>
   <footer>
